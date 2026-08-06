@@ -14,7 +14,6 @@ void main() {
   }
 }
 
-
 // Rendering a wedgit in flutter 100 times
 
 /*
