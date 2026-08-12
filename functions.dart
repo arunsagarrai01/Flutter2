@@ -7,11 +7,25 @@ void main() {
   // task that need to be performed is a function
   // main function is the entry point of the program
   // void means you are not returning anything from the function
-  int result = (hundredthMultiple(2));
+  Arun arun = new Arun();
+
+  int result = (arun.hundredthMultiple(2));
   print(result);
+
+  String sResult = arun.stringPlusHello("Arun Sagar Rai");
+  print(sResult);
 }
 
-// returnType functionname parameters
-int hundredthMultiple(int n) {
-  return n * 100;
+class Arun {
+  int hundredthMultiple(int n) {
+    return n * 100;
+  }
+
+  String stringPlusHello(String name) {
+    return "Hello $name";
+  }
 }
+
+// create an object of the class Arun
+
+// returnType functionname parameters
